@@ -4,8 +4,6 @@
 
 **2D fighting game — play online via matchmaker**
 
-[![Download](https://img.shields.io/badge/download-linux%20|%20windows-blue)](#)
-
 ---
 
 **Linux:** `./stick-battle.x86_64`  
