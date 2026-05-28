@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stick-battle-matchmaker
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: RENDER_AUTH_TOKEN
+        generateValue: true
+      - key: PORT
+        value: 6790
